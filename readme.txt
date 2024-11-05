@@ -20,3 +20,12 @@ CREATE DATABASE your_database_name;
 CREATE USER your_username WITH PASSWORD 'your_password';
 GRANT ALL PRIVILEGES ON DATABASE your_database_name TO your_username;
 \q
+
+
+
+
+the tokens for a test user:
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDkyNjYyOCwiaWF0IjoxNzMwODQwMjI4LCJqdGkiOiIwMzI5NzlhYjRkY2M0ZmE3YjZkOWEwMzk1NGI1ZjJjOSIsInVzZXJfaWQiOjJ9.RCzCVBBkRxTmuqf8QbZ-LUTElivjJIZbLmKPDCsUyuo",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODQwNTI4LCJpYXQiOjE3MzA4NDAyMjgsImp0aSI6IjMwZmQyZTkzYTMwODQ0ZmZiYTI1Mjg5MGM5NDhkZjUxIiwidXNlcl9pZCI6Mn0.7dYmF9GU762Azs-OdxjUX071PDM5eNSNDtEru2z0ymQ"
+}

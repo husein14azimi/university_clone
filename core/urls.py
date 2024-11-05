@@ -24,6 +24,9 @@ urlpatterns = [
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('messages/', include('postman.urls', namespace='postman')),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.jwt')),
     path('admin/', admin.site.urls),
     path('course/', include('course.urls')),
+    path('account/', include('account.urls')),
 ]
