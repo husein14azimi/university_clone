@@ -23,9 +23,20 @@ GRANT ALL PRIVILEGES ON DATABASE your_database_name TO your_username;
 
 
 
+urls for authentication and profile:
+    register:
+    /auth/users/
+
+    login:
+    /auth/jwt/create/
+
+    profile:
+    /account/persons/
+
 
 the tokens for a test user:
+
 {
-    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDkyNjYyOCwiaWF0IjoxNzMwODQwMjI4LCJqdGkiOiIwMzI5NzlhYjRkY2M0ZmE3YjZkOWEwMzk1NGI1ZjJjOSIsInVzZXJfaWQiOjJ9.RCzCVBBkRxTmuqf8QbZ-LUTElivjJIZbLmKPDCsUyuo",
-    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODQwNTI4LCJpYXQiOjE3MzA4NDAyMjgsImp0aSI6IjMwZmQyZTkzYTMwODQ0ZmZiYTI1Mjg5MGM5NDhkZjUxIiwidXNlcl9pZCI6Mn0.7dYmF9GU762Azs-OdxjUX071PDM5eNSNDtEru2z0ymQ"
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDk1NTk4MywiaWF0IjoxNzMwODY5NTgzLCJqdGkiOiIyMmNmOTI2OGQ4ZDM0Yjg3OTNiZjY2NDk2Nzg3YTgyNSIsInVzZXJfaWQiOjJ9.1LPmbtvBUcuoUzSfqPwcpKWsk2qOV4H89c4VZBIzvAQ",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODY5ODgzLCJpYXQiOjE3MzA4Njk1ODMsImp0aSI6ImI0ODMzYTZhMzJhMTQ4NzI5YmJiZTU3MTYwNzc3ZDE2IiwidXNlcl9pZCI6Mn0.OH9DoZ5lbh3PCVFhlOF5eYyyIVM15aaXhvVFAlZtOz0"
 }
