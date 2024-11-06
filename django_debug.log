@@ -1,0 +1,33 @@
+DEBUG 2024-11-06 11:01:35,681 debug_jwt 9652 10892 Attempting to authenticate request: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODc3MjYyLCJpYXQiOjE3MzA4NzY5NjIsImp0aSI6IjZiY2VlODVlM2I5OTQ4ZmQ4NTA0ODhmODgwMDNiZTBmIiwidXNlcl9pZCI6Mn0.AcHmLqJaui_ciPFFeb5A2DhvrBZb0JwUHTwfc6yZzoQ
+DEBUG 2024-11-06 11:01:35,682 debug_jwt 9652 10892 Authentication result: None
+WARNING 2024-11-06 11:01:35,684 log 9652 10892 Unauthorized: /auth/users/me/
+WARNING 2024-11-06 11:01:35,685 basehttp 9652 10892 "GET /auth/users/me/ HTTP/1.1" 401 58
+ERROR 2024-11-06 11:05:34,464 log 11196 2868 Internal Server Error: /temp/
+Traceback (most recent call last):
+  File "E:\_sadra\university\venv_uni\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\_sadra\university\venv_uni\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\_sadra\university\venv_uni\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view core.views.temp didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-11-06 11:05:34,466 basehttp 11196 2868 "GET /temp/ HTTP/1.1" 500 74111
+WARNING 2024-11-06 11:12:55,422 log 2236 5604 Not Found: /debug-jwt/
+WARNING 2024-11-06 11:12:55,423 basehttp 2236 5604 "GET /debug-jwt/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODc3MjYyLCJpYXQiOjE3MzA4NzY5NjIsImp0aSI6IjZiY2VlODVlM2I5OTQ4ZmQ4NTA0ODhmODgwMDNiZTBmIiwidXNlcl9pZCI6Mn0.AcHmLqJaui_ciPFFeb5A2DhvrBZb0JwUHTwfc6yZzoQ HTTP/1.1" 404 3682
+WARNING 2024-11-06 11:13:40,952 log 14796 10876 Not Found: /debug-jwt/
+WARNING 2024-11-06 11:13:40,953 basehttp 14796 10876 "GET /debug-jwt/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODc3MjYyLCJpYXQiOjE3MzA4NzY5NjIsImp0aSI6IjZiY2VlODVlM2I5OTQ4ZmQ4NTA0ODhmODgwMDNiZTBmIiwidXNlcl9pZCI6Mn0.AcHmLqJaui_ciPFFeb5A2DhvrBZb0JwUHTwfc6yZzoQ HTTP/1.1" 404 3687
+WARNING 2024-11-06 11:13:48,435 log 1256 16300 Bad Request: /debug-jwt/
+WARNING 2024-11-06 11:13:48,436 basehttp 1256 16300 "GET /debug-jwt/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODc3MjYyLCJpYXQiOjE3MzA4NzY5NjIsImp0aSI6IjZiY2VlODVlM2I5OTQ4ZmQ4NTA0ODhmODgwMDNiZTBmIiwidXNlcl9pZCI6Mn0.AcHmLqJaui_ciPFFeb5A2DhvrBZb0JwUHTwfc6yZzoQ HTTP/1.1" 400 40
+WARNING 2024-11-06 11:17:28,341 log 10552 15872 Bad Request: /debug-jwt/
+WARNING 2024-11-06 11:17:28,342 basehttp 10552 15872 "GET /debug-jwt/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODc3MjYyLCJpYXQiOjE3MzA4NzY5NjIsImp0aSI6IjZiY2VlODVlM2I5OTQ4ZmQ4NTA0ODhmODgwMDNiZTBmIiwidXNlcl9pZCI6Mn0.AcHmLqJaui_ciPFFeb5A2DhvrBZb0JwUHTwfc6yZzoQ HTTP/1.1" 400 40
+DEBUG 2024-11-06 11:18:53,632 debug_jwt 10552 6916 Attempting to authenticate request: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwODc5NTU0LCJpYXQiOjE3MzA4NzkyNTQsImp0aSI6IjA4NGJhNGNiYWNmMjRlZWJhMTE4ZmZmZTUyZGI0NTdlIiwidXNlcl9pZCI6Mn0.CQXzU4JLdxCrPP8WYz78JLOvPjKYW6k5W24WfUb3Yos
+DEBUG 2024-11-06 11:18:53,634 debug_jwt 10552 6916 Authentication result: None
+WARNING 2024-11-06 11:18:53,652 log 10552 6916 Unauthorized: /auth/users/me/
+WARNING 2024-11-06 11:18:53,655 basehttp 10552 6916 "GET /auth/users/me/ HTTP/1.1" 401 5246
+WARNING 2024-11-06 11:18:53,769 log 10552 6916 Not Found: /favicon.ico
+WARNING 2024-11-06 11:18:53,769 basehttp 10552 6916 "GET /favicon.ico HTTP/1.1" 404 3455
+WARNING 2024-11-06 11:22:03,255 log 5852 17148 Unauthorized: /auth/users/me/
+WARNING 2024-11-06 11:22:03,524 basehttp 5852 17148 "GET /auth/users/me/ HTTP/1.1" 401 5246
+WARNING 2024-11-06 11:22:03,644 log 5852 17148 Not Found: /favicon.ico
+WARNING 2024-11-06 11:22:03,644 basehttp 5852 17148 "GET /favicon.ico HTTP/1.1" 404 3455
