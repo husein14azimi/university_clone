@@ -147,6 +147,12 @@ simple_jwt = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 }
 
+DJOSER = {
+    'SERIALIZERS': {
+        'user_create': 'core.serializers.UserCreateSerializer'
+    }
+}
+
 
 
 
